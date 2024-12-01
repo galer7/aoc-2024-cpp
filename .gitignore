@@ -1,0 +1,28 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+.vs/
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# But keep CMakeLists.txt files
+!CMakeLists.txt
